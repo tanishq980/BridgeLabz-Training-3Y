@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information Form</title>
+</head>
+<body>
+    <h1>Student Information</h1>
+    <form method="post" action="#">
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        <br>
+        <label>Roll Number:</label>
+        <input type="text" name="roll" required>
+        <br>
+        <label>Course:</label>
+        <select name="course" required>
+            <option value="" disabled selected>Select Course</option>
+            <option value="bsc">B.Sc</option>
+            <option value="bcom">B.Com</option>
+            <option value="btech">B.Tech</option>
+        </select>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
