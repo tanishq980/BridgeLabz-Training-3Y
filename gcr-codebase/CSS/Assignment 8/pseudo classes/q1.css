@@ -1,0 +1,60 @@
+```css
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header,
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    min-height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    flex-wrap: wrap;
+}
+
+.example {
+    width: 200px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* :hover pseudo-class */
+.example a:hover {
+    color: red;
+}
+
+/* :focus pseudo-class */
+button:focus {
+    outline: 3px solid blue;
+}
+
+/* :active pseudo-class */
+.active-btn:active {
+    background-color: green;
+    color: white;
+}
+
+/* :nth-child() pseudo-class */
+li:nth-child(2) {
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+```

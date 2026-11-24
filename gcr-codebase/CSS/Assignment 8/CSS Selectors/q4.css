@@ -1,0 +1,66 @@
+```css
+/* Element selector */
+p {
+    line-height: 1.6;
+}
+
+/* Class selector */
+.special {
+    background-color: #dff0ff;
+    padding: 20px;
+}
+
+/* ID selector */
+#unique {
+    background-color: #ffe0e0;
+    padding: 20px;
+}
+
+/* Attribute selector */
+a[href^="https"] {
+    color: green;
+    font-weight: bold;
+}
+
+/* Child combinator > */
+.combinators > div {
+    border: 2px solid blue;
+    padding: 10px;
+}
+
+/* Descendant combinator */
+.combinators div p {
+    color: purple;
+}
+
+/* Adjacent sibling combinator + */
+div + p {
+    color: red;
+}
+
+/* General sibling combinator ~ */
+div ~ p {
+    background-color: #eee;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header,
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 30px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+```

@@ -1,0 +1,63 @@
+
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.article {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: white;
+}
+
+h1 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+p {
+    font-family: Georgia, serif;
+    font-size: 18px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+/* Custom styling for mark */
+mark {
+    background-color: #ffe066;
+    color: #8e44ad;
+}
+
+/* Custom styling for strong */
+strong {
+    color: #2980b9;
+}
+
+/* Custom styling for em */
+em {
+    color: #e74c3c;
+}
+
+/* First letter pseudo-element */
+.special::first-letter {
+    font-size: 45px;
+    font-weight: bold;
+    color: #3498db;
+}
+
+/* First line pseudo-element */
+.special::first-line {
+    font-weight: bold;
+}
+

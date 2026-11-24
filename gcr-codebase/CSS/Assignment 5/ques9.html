@@ -1,0 +1,187 @@
+```html id="a7k2lm"
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Daily Chronicle</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Georgia, "Times New Roman", serif;
+            background-color: #d9d9d9;
+            color: #222;
+            padding: 30px;
+        }
+
+      
+        .newspaper {
+            max-width: 1100px;
+            margin: auto;
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        }
+
+        .newspaper h1 {
+            column-span: all;
+            text-align: center;
+            font-family: Georgia, serif;
+            font-size: 42px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #222;
+            padding-bottom: 15px;
+        }
+
+        .article {
+            column-count: 3;
+            column-gap: 40px;
+        }
+
+        
+        .article p {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 17px;
+            line-height: 1.7;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+
+       
+        .article img {
+            float: left;
+            width: 180px;
+            height: 130px;
+            object-fit: cover;
+            margin: 0 15px 10px 0;
+            border-radius: 5px;
+        }
+
+        .article h2 {
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            margin-bottom: 15px;
+            break-after: avoid;
+        }
+
+        
+        @media (max-width: 900px) {
+            .article {
+                column-count: 2;
+                column-gap: 30px;
+            }
+
+            .newspaper {
+                padding: 30px;
+            }
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+
+            .newspaper {
+                padding: 20px;
+            }
+
+            .article {
+                column-count: 1;
+            }
+
+            .newspaper h1 {
+                font-size: 32px;
+            }
+
+            .article img {
+                width: 150px;
+                height: 110px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="newspaper">
+
+        
+        <h1>The Daily Chronicle</h1>
+
+        <div class="article">
+
+            <h2>The Changing World of Technology</h2>
+
+            <img
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+                alt="Technology"
+            >
+
+            <p>
+                Technology has become an important part of modern society.
+                From smartphones and computers to cloud platforms and
+                artificial intelligence, digital technology influences the
+                way people communicate, work, and learn.
+            </p>
+
+            <p>
+                The growth of the internet has created a connected world.
+                People can communicate instantly across different countries,
+                while businesses can reach customers from almost anywhere.
+                Digital platforms have also transformed education and
+                entertainment.
+            </p>
+
+            <p>
+                Artificial intelligence is another major development.
+                Modern AI systems can analyze information, recognize patterns,
+                and assist people with a wide range of tasks. As these systems
+                become more common, organizations are exploring new ways to
+                use them responsibly.
+            </p>
+
+            <p>
+                Cloud computing has also changed the way applications and
+                data are managed. Instead of depending entirely on physical
+                computers, organizations can use remote servers to store
+                information and run applications.
+            </p>
+
+            <p>
+                Technology is also influencing the workplace. Remote work,
+                online collaboration tools, and digital project management
+                allow teams to work together even when they are located in
+                different places.
+            </p>
+
+            <h2>Looking Towards the Future</h2>
+
+            <p>
+                The future of technology will likely bring both opportunities
+                and challenges. New innovations may improve productivity,
+                communication, healthcare, and education, but questions about
+                privacy and security will remain important.
+            </p>
+
+            <p>
+                Responsible development and thoughtful use of technology can
+                help ensure that innovation benefits people and communities.
+                Education and awareness will play an important role as society
+                continues to adapt to technological change.
+            </p>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
+```

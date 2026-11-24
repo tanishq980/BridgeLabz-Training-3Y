@@ -1,0 +1,74 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.form-container {
+    width: 400px;
+    padding: 30px;
+    background-color: white;
+
+    border-radius: 12px;
+    box-shadow: 0 5px 20px #bbb;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 12px;
+
+    border: 1px solid #aaa;
+    border-radius: 6px;
+
+    box-shadow: 0 2px 5px #ddd;
+}
+
+/* Different outline style */
+input {
+    outline: 2px dashed transparent;
+    outline-offset: 3px;
+}
+
+/* Outline changes when input gets focus */
+input:focus {
+    outline: 2px dashed blue;
+    outline-offset: 3px;
+}
+
+/* Textarea focus */
+textarea:focus {
+    outline: 3px solid green;
+    outline-offset: 3px;
+}
+
+textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+

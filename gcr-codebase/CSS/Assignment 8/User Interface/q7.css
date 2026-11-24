@@ -1,0 +1,70 @@
+```css
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #dfe9f3, #ffffff);
+}
+
+.ui-card {
+    width: 400px;
+    padding: 35px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    background-color: white;
+    border-radius: 15px;
+
+    box-shadow: 0 10px 30px #bbb;
+}
+
+.ui-card h1 {
+    text-align: center;
+}
+
+input,
+select,
+button {
+    padding: 12px;
+
+    border-radius: 8px;
+    border: 1px solid #bbb;
+
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+button {
+    flex: 1;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+input:focus,
+select:focus {
+    outline: 3px solid #8ecae6;
+}
+
+@media (max-width: 500px) {
+    .ui-card {
+        width: 80%;
+    }
+}
+```

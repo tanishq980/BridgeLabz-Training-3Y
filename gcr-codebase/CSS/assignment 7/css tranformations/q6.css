@@ -1,0 +1,50 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 150px;
+}
+
+.box {
+    height: 120px;
+    background-color: #3498db;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.4s ease;
+}
+
+/* Rotate transformation */
+.rotate:hover {
+    transform: rotate(15deg);
+}
+
+/* Scale transformation */
+.scale:hover {
+    transform: scale(1.2);
+}
+
+/* Translate transformation */
+.translate:hover {
+    transform: translate(20px, -20px);
+}
+
+/* Skew transformation */
+.skew:hover {
+    transform: skew(15deg, 10deg);
+}
+

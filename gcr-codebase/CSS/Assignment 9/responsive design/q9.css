@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    padding: 50px 8%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.principles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.principle {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    transition: background 0.4s ease, color 0.4s ease, transform 0.3s ease;
+}
+
+.principle:hover {
+    background: linear-gradient(135deg, #333, #777);
+    color: white;
+    transform: translateY(-8px);
+}
+
+.principle h2 {
+    margin-bottom: 15px;
+}
+
+.principle p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+code {
+    display: block;
+    background: #eee;
+    color: #222;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .principles {
+        grid-template-columns: 1fr;
+    }
+}

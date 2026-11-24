@@ -1,0 +1,55 @@
+```css
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.tooltip-box {
+    position: relative;
+
+    padding: 15px 25px;
+    background-color: #3498db;
+    color: white;
+
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Tooltip is hidden initially */
+.tooltip {
+    position: absolute;
+
+    bottom: 120%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background-color: #222;
+    color: white;
+
+    padding: 8px 12px;
+    border-radius: 5px;
+
+    white-space: nowrap;
+
+    opacity: 0;
+
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Tooltip appears on hover */
+.tooltip-box:hover .tooltip {
+    opacity: 1;
+}
+```

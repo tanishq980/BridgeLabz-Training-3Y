@@ -1,0 +1,70 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+/* Horizontal navigation */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar a {
+    padding: 15px 25px;
+
+    color: #222;
+    text-decoration: none;
+
+    border: 1px solid #ccc;
+
+    /* Smooth transition */
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.navbar a:hover {
+    background-color: #222;
+    color: white;
+}
+
+/* Active link */
+.navbar a.active {
+    background-color: #3498db;
+    color: white;
+}
+
+/* Main content */
+main {
+    min-height: 60vh;
+    padding: 40px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+/* Responsive navbar */
+@media (max-width: 700px) {
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+

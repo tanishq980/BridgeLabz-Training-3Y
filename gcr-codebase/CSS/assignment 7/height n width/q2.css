@@ -1,0 +1,58 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+}
+
+.container {
+    min-height: 80vh;
+
+    /* Center all boxes */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 20px;
+    overflow: auto;
+    color: white;
+}
+
+/* Width and height using px */
+.box1 {
+    width: 200px;
+    height: 150px;
+    background-color: #3498db;
+}
+
+/* Width using percentage */
+.box2 {
+    width: 40%;
+    min-height: 180px;
+    max-width: 400px;
+    background-color: #2ecc71;
+}
+
+/* Width using em and height using vh */
+.box3 {
+    width: 15em;
+    height: 30vh;
+    max-width: 300px;
+    background-color: #e67e22;
+}
+
+/* Make the layout responsive */
+@media (max-width: 700px) {
+    .box2 {
+        width: 80%;
+    }
+}

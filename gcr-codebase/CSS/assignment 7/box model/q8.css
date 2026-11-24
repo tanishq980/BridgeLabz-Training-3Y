@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+/* Margin layer */
+.margin-layer {
+    background-color: #f1c40f;
+    padding: 40px;
+}
+
+/* Border layer */
+.border-layer {
+    background-color: #e74c3c;
+    border: 15px solid #922b21;
+}
+
+/* Padding layer */
+.padding-layer {
+    background-color: #2ecc71;
+    padding: 35px;
+}
+
+/* Content layer */
+.content {
+    width: 220px;
+    height: 120px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #3498db;
+    color: white;
+}
+
+.description {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Demonstrating border-box */
+.border-box {
+    box-sizing: border-box;
+
+    width: 300px;
+    padding: 30px;
+    border: 10px solid black;
+
+    margin: 20px auto;
+
+    background-color: #ddd;
+}
+

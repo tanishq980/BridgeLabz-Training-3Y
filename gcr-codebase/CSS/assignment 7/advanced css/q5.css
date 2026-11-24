@@ -1,0 +1,71 @@
+```css
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+}
+
+/* Attribute selector */
+input[type="text"] {
+    border: 3px solid blue;
+}
+
+/* Attribute selector: links beginning with https */
+a[href^="https"] {
+    color: green;
+    font-weight: bold;
+}
+
+/* Pseudo-class: hover */
+a:hover {
+    color: red;
+}
+
+/* Pseudo-class: focus */
+input:focus {
+    outline: 3px solid orange;
+}
+
+/* Pseudo-class: nth-child */
+li:nth-child(2) {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Pseudo-element: before */
+h2::before {
+    content: "★ ";
+    color: orange;
+}
+
+/* Pseudo-element: after */
+h2::after {
+    content: " ✓";
+    color: green;
+}
+
+/* Child combinator > */
+.items > ul {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+/* Descendant combinator */
+.items li {
+    margin: 10px;
+}
+
+/* Adjacent sibling combinator + */
+h2 + p {
+    color: purple;
+}
+
+/* General sibling combinator ~ */
+h2 ~ p {
+    background-color: #eee;
+}
+
+/* Hover on list item */
+li:hover {
+    background-color: #ddd;
+}
+```
